@@ -107,7 +107,7 @@ python
 Copy code
 from sklearn.ensemble import RandomForestClassifier
 
-# Assuming X_train and y_train are predefined
+ Assuming X_train and y_train are predefined
 model = RandomForestClassifier()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
