@@ -1,12 +1,12 @@
 Machine Learning Algorithms: Read Me
 This README file provides an overview of four fundamental machine learning algorithms: Linear Regression, Logistic Regression, Decision Trees, and Random Forests. Each section includes a brief description of the algorithm, its use cases, advantages, disadvantages, and basic implementation steps.
 
-Table of Contents
+#Table of Contents
 Linear Regression
 Logistic Regression
 Decision Trees
 Random Forest
-1. Linear Regression
+#1. Linear Regression
 Description
 Linear Regression is a supervised learning algorithm used to model the relationship between a dependent variable and one or more independent variables. The relationship is modeled using a linear equation.
 
@@ -27,11 +27,12 @@ python
 Copy code
 from sklearn.linear_model import LinearRegression
 
-# Assuming X_train and y_train are predefined
+ Assuming X_train and y_train are predefined
 model = LinearRegression()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
-2. Logistic Regression
+
+#2. Logistic Regression
 Description
 Logistic Regression is a supervised learning algorithm used for binary classification. It models the probability of a binary outcome based on one or more predictor variables.
 
@@ -52,11 +53,13 @@ python
 Copy code
 from sklearn.linear_model import LogisticRegression
 
-# Assuming X_train and y_train are predefined
+ Assuming X_train and y_train are predefined
 model = LogisticRegression()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
-3. Decision Trees
+
+
+#3. Decision Trees
 Description
 Decision Trees are supervised learning algorithms used for classification and regression tasks. They model decisions based on the values of input features, splitting the data into branches to make predictions.
 
@@ -77,11 +80,13 @@ python
 Copy code
 from sklearn.tree import DecisionTreeClassifier
 
-# Assuming X_train and y_train are predefined
+ Assuming X_train and y_train are predefined
 model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 predictions = model.predict(X_test)
-4. Random Forest
+
+
+#4. Random Forest
 Description
 Random Forest is an ensemble learning algorithm that builds multiple decision trees and merges them to improve accuracy and control overfitting. It can be used for both classification and regression tasks.
 
