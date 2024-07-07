@@ -1,11 +1,11 @@
-Machine Learning Algorithms: Read Me
+Machine Learning Algorithms: 
 This README file provides an overview of four fundamental machine learning algorithms: Linear Regression, Logistic Regression, Decision Trees, and Random Forests. Each section includes a brief description of the algorithm, its use cases, advantages, disadvantages, and basic implementation steps.
 
 #Table of Contents
-Linear Regression
-Logistic Regression
-Decision Trees
-Random Forest
+Linear Regression:
+Logistic Regression:
+Decision Trees:
+Random Forest:
 #1. Linear Regression
 Description
 Linear Regression is a supervised learning algorithm used to model the relationship between a dependent variable and one or more independent variables. The relationship is modeled using a linear equation.
